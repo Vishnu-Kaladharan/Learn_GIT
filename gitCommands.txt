@@ -22,3 +22,15 @@ $ git commit
   Commit the change to Master branch in the local repository. Will navigate to Vim editor for entering the commit message
 $ git commit -m 'Revert changes in the gitCommands.txt file'
   Commit changes. can reduce the step of opening the editor
+
+$ touch .gitignore
+  .gitignore file is used to store all the files in the local repository to be ignored while committing
+
+$ git merge sample_branch
+  merge a branch(sample_branch) into the current branch
+
+$ git remote add origin https://github.com/Vishnu-Kaladharan/Learn_GIT.git
+  To connect the local repository to the remote server. If you haven't connected your local repository to a remote server, add the server to be able to push to it:
+
+$ git push -u origin master
+  To push the local repository to the master branch of remote server repository

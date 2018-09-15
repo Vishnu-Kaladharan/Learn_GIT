@@ -26,6 +26,9 @@ $ git commit -m 'Revert changes in the gitCommands.txt file'
 $ touch .gitignore
   .gitignore file is used to store all the files in the local repository to be ignored while committing
 
+$ git checkout -b sample_branch
+  To create a new branch in the local
+
 $ git merge sample_branch
   merge a branch(sample_branch) into the current branch
 
@@ -34,3 +37,9 @@ $ git remote add origin https://github.com/Vishnu-Kaladharan/Learn_GIT.git
 
 $ git push -u origin master
   To push the local repository to the master branch of remote server repository
+
+$ git branch
+  See all the branches in the local
+
+$ git push origin readme_file
+  Push the branch to your remote repository, so others can use it

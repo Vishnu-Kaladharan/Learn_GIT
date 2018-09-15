@@ -40,3 +40,6 @@ $ git push -u origin master
 
 $ git branch
   See all the branches in the local
+
+$ git push origin readme_file
+  Push the branch to your remote repository, so others can use it

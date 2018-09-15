@@ -1,0 +1,19 @@
+$ git init
+  To initialize the git repository in the Project folder. Create new local repository
+
+$ git config --global user.name 'Vishnu Kaladharan'
+$ git config --global user.email 'vishnukaladhar@gmail.com'
+  Configure the author name and email address to be used with your commits.
+
+$ git status
+  List the files you've changed and those you still need to add or commit:
+
+$ git add sample1.html
+  Add files
+$ git add *.html
+  Add all files of the filetype
+$ git add .
+  Add all files
+
+$ git rm --cached sample1.html
+  Remove the files

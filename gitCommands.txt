@@ -16,4 +16,4 @@ $ git add .
   Add all files
 
 $ git rm --cached sample1.html
-  Remove the files
+  Remove the files.

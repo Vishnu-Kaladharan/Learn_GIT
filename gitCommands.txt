@@ -17,3 +17,8 @@ $ git add .
 
 $ git rm --cached sample1.html
   Remove the files
+
+$ git commit
+  Commit the change to Master branch in the local repository. Will navigate to Vim editor for entering the commit message
+$ git commit -m 'Revert changes in the gitCommands.txt file'
+  Commit changes. can reduce the step of opening the editor
